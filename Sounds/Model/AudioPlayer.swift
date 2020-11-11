@@ -10,7 +10,7 @@ import Foundation
 import AVFoundation
 import UIKit
 
-var player: AVAudioPlayer!   // Making it global varible so i can get it from other VC
+var player = AVAudioPlayer()   // Making it global varible so i can get it from other VC
 
 // This method will play sound of items
 struct AudioPlayer {
@@ -22,12 +22,21 @@ struct AudioPlayer {
         do {
             
             player = try AVAudioPlayer(contentsOf: url!)
-            try AVAudioSession.sharedInstance().setCategory(.playback) // play sound when device in silent mode
+            try AVAudioSession.sharedInstance().setCategory(.playback,mode: .default) // play sound when device in silent mode
             
             player.play()
             
         } catch let error {
             print("Error message from AVAudio Player  \(error.localizedDescription)")
+        }
+    }
+    
+    
+    // this method will stop the sound
+    static func stopSound() {
+        
+        if player.isPlaying {
+            player.stop()
         }
     }
     

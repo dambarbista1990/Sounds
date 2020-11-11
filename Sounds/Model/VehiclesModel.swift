@@ -24,7 +24,7 @@ struct VehiclesModel {
          VehiclesData(name: "School Bus", image: UIImage(named: "schoolBus.png")!, sound: "bus"),
          VehiclesData(name: "Airplane", image: UIImage(named: "airplane.png")!, sound: "airplane"),
          VehiclesData(name: "Ship", image: UIImage(named: "ship.png")!, sound: "ship"),
-         VehiclesData(name: "Motor Cycle", image: UIImage(named: "motorCycle.png")!, sound: "motorCycle"),
+         VehiclesData(name: "Motor Cycle", image: UIImage(named: "motorcycle.png")!, sound: "motorCycle"),
          VehiclesData(name: "Rocket", image: UIImage(named: "rocket.png")!, sound: "rocket"),
          VehiclesData(name: "Excavator", image: UIImage(named: "excavator.png")!, sound: "excavator"),
     

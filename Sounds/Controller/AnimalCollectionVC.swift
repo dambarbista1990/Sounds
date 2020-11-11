@@ -14,16 +14,18 @@ import AVFoundation
 class AnimalCollectionVC: UICollectionViewController {
 
     
-    var animalDataModel = AnimalModel()
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
     
     }
     
+    // When tap on other screen stop the sound
+    override func viewDidDisappear(_ animated: Bool) {
+        AudioPlayer.stopSound()
+    }
     
+    // MARK:- UICollectionView DataSource and Delegate
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return AnimalModel.animalData.count
@@ -34,13 +36,12 @@ class AnimalCollectionVC: UICollectionViewController {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CellIdentifiers.animalCellIdentifier, for: indexPath) as! AnimalCollectionViewCell
     
-        cell.animalImage.image = AnimalModel.getAnimalImage(index: indexPath.item)
-        cell.animalNameLabel.text = AnimalModel.getAnimalName(index: indexPath.item)
+        cell.animalImage.image      = AnimalModel.getAnimalImage(index: indexPath.item)
+        cell.animalNameLabel.text   = AnimalModel.getAnimalName(index: indexPath.item)
         
-        cell.layer.borderColor = UIColor.black.cgColor
-        cell.layer.borderWidth = 2
-        cell.layer.cornerRadius = 10
-        cell.clipsToBounds = true
+        cell.layer.borderColor      = UIColor.systemRed.cgColor
+        cell.layer.borderWidth      = 2
+        cell.layer.cornerRadius     = 10
         
         return cell
     }
