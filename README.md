@@ -4,9 +4,9 @@
 
 ![1](https://user-images.githubusercontent.com/60531116/106691760-0f41a600-65a2-11eb-8f41-d98e1d6ba806.png)
 
-![Idea came to life  yey](https://user-images.githubusercontent.com/60531116/106675314-f249aa80-6582-11eb-9f47-ebb5aa31d00b.gif)
-
 ![2](https://user-images.githubusercontent.com/60531116/106692357-562f9b80-65a2-11eb-979b-af34ad222945.png)
+
+![Idea came to life  yey](https://user-images.githubusercontent.com/60531116/106675314-f249aa80-6582-11eb-9f47-ebb5aa31d00b.gif)
 
 ![4](https://user-images.githubusercontent.com/60531116/106692375-5fb90380-65a2-11eb-8623-20cacf985269.png)
 
