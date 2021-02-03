@@ -14,7 +14,8 @@
 
 ![5](https://user-images.githubusercontent.com/60531116/106692422-6fd0e300-65a2-11eb-8fd0-2a26c9bb303d.png)
 
-![animoGithub readme](https://user-images.githubusercontent.com/60531116/98749825-77f5f980-238a-11eb-9c96-1c653afcfdce.png)
+![Add a subheading](https://user-images.githubusercontent.com/60531116/106693666-ecfd5780-65a4-11eb-9937-fd174fc3f7a8.png)
+
 
 
 
