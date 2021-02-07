@@ -1,6 +1,6 @@
 # Animo
 
-![6](https://user-images.githubusercontent.com/60531116/106691742-081a9800-65a2-11eb-9ddc-71d50d5848d6.png)
+![How i came up with this app idea_ (1)](https://user-images.githubusercontent.com/60531116/107157116-53d99280-6950-11eb-8395-35d4636b69c5.png)
 
 ![1](https://user-images.githubusercontent.com/60531116/106691760-0f41a600-65a2-11eb-8f41-d98e1d6ba806.png)
 
