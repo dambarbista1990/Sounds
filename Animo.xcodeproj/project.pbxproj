@@ -858,6 +858,7 @@
 				E1E5EFC2250E87B300E299BA /* Model */,
 				E19250212509CCF9000116F4 /* View */,
 				E19250202509CCDC000116F4 /* Controller */,
+				E1C02346269FDF3D004535F3 /* Custom TableView Cells */,
 				E19250152509B836000116F4 /* Assets.xcassets */,
 				E192501A2509B836000116F4 /* Info.plist */,
 				E16DC5F525428CA500C88E92 /* Education Image */,
@@ -883,29 +884,17 @@
 			isa = PBXGroup;
 			children = (
 				E1F69DDE253D21C0007B905B /* HomePageCollectionVC.swift */,
-				E1F69DE2253D5D0A007B905B /* HomePageCollectionViewCell.swift */,
 				E16DC5C12542689B00C88E92 /* NatureCollectionVC.swift */,
-				E16DC5BE2542687600C88E92 /* NatureCollectionViewCell.swift */,
 				E16DC5CB25427CB700C88E92 /* EducationCollectionVC.swift */,
-				E16DC5DD25427E1800C88E92 /* EducationCollectionViewCell.swift */,
 				E13A4B9D2549F5D300478705 /* AlphabetVC.swift */,
-				E13A4B962549F1C600478705 /* AlphabetCollectionViewCell.swift */,
 				E16DC5CE25427CE700C88E92 /* TechnologyCollectionVC.swift */,
-				E16DC5E025427E4700C88E92 /* TechnologyCollectionViewCell.swift */,
 				E16DC5DA25427D9400C88E92 /* ColorAndShapeCollectionVC.swift */,
-				E16DC5EC25427EBB00C88E92 /* ColorAndShapeCollectionViewCell.swift */,
 				E16DC5D125427D0F00C88E92 /* FruitsCollectionVC.swift */,
-				E16DC5E325427E6300C88E92 /* FruitsCollectionViewCell.swift */,
 				E16DC5D425427D2900C88E92 /* VegetablesCollectionVC.swift */,
-				E16DC5E625427E7E00C88E92 /* VegetablesCollectionViewCell.swift */,
 				E16DC5B425420B0300C88E92 /* ClothsCollectionVC.swift */,
-				E16DC5B725420B7900C88E92 /* ClothsCollectionViewCell.swift */,
 				E16DC5D725427D6000C88E92 /* KitchenCollectionVC.swift */,
-				E16DC5E925427E9400C88E92 /* KitchenCollectionViewCell.swift */,
 				E13B2AA725183D9A00DBCE9B /* AnimalCollectionVC.swift */,
-				E13B29882516A3EF00DBCE9B /* AnimalCollectionViewCell.swift */,
 				E16342692544AC5200AC6877 /* VehiclesCollectionVC.swift */,
-				E1B546CE251BDE44002D950D /* VehiclesCollectionViewCell.swift */,
 				E19250172509B836000116F4 /* LaunchScreen.storyboard */,
 			);
 			path = Controller;
@@ -917,6 +906,25 @@
 				E19250122509B82C000116F4 /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E1C02346269FDF3D004535F3 /* Custom TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E1F69DE2253D5D0A007B905B /* HomePageCollectionViewCell.swift */,
+				E16DC5BE2542687600C88E92 /* NatureCollectionViewCell.swift */,
+				E16DC5DD25427E1800C88E92 /* EducationCollectionViewCell.swift */,
+				E13A4B962549F1C600478705 /* AlphabetCollectionViewCell.swift */,
+				E16DC5E025427E4700C88E92 /* TechnologyCollectionViewCell.swift */,
+				E16DC5EC25427EBB00C88E92 /* ColorAndShapeCollectionViewCell.swift */,
+				E16DC5E325427E6300C88E92 /* FruitsCollectionViewCell.swift */,
+				E16DC5E625427E7E00C88E92 /* VegetablesCollectionViewCell.swift */,
+				E16DC5B725420B7900C88E92 /* ClothsCollectionViewCell.swift */,
+				E16DC5E925427E9400C88E92 /* KitchenCollectionViewCell.swift */,
+				E13B29882516A3EF00DBCE9B /* AnimalCollectionViewCell.swift */,
+				E1B546CE251BDE44002D950D /* VehiclesCollectionViewCell.swift */,
+			);
+			path = "Custom TableView Cells";
 			sourceTree = "<group>";
 		};
 		E1E5EFC2250E87B300E299BA /* Model */ = {
