@@ -8,12 +8,14 @@
 
 import Foundation
 
-// This method is for to say shape and color name when tap. speak by speech synthesizer
+// Storing the shape and color of shapes
+struct ColorAndShapeData {
+    var itemsNameAndColor: String
+}
 
+// This method is for to say shape and color name when tap. speak by speech synthesizer
 struct ColorAndShapeModel {
-    
     static let shapeName = [
-        
         ColorAndShapeData(itemsNameAndColor: "Green Circle"),
         ColorAndShapeData(itemsNameAndColor: "Red Heart"),
         ColorAndShapeData(itemsNameAndColor: "Grey Octagon"),
@@ -24,16 +26,11 @@ struct ColorAndShapeModel {
         ColorAndShapeData(itemsNameAndColor: "Black Triangle"),
         ColorAndShapeData(itemsNameAndColor: "Pink Oval"),
         ColorAndShapeData(itemsNameAndColor: "Purple Cube"),
-    
     ]
-    
     
     static func getShapeAndColorName(for selectIndex: Int) -> String {
         return shapeName[selectIndex].itemsNameAndColor
     }
-    
-    
-    
 }
 
 

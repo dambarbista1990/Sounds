@@ -9,14 +9,11 @@
 import UIKit
 
 class ClothsCollectionViewCell: UICollectionViewCell {
-    
     @IBOutlet weak var clothsItemsImage: UIImageView!
     @IBOutlet weak var clothsItemsNameLabel: UILabel!
     
-    
     // this method for display the border color when selectedd
     override var isSelected: Bool {
-        
         didSet {
             if self.isSelected {
                 UIView.animate(withDuration: 0.3) { // for animation effect

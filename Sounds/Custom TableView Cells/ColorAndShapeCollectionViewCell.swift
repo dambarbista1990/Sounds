@@ -9,13 +9,11 @@
 import UIKit
 
 class ColorAndShapeCollectionViewCell: UICollectionViewCell {
-    
     @IBOutlet weak var colorAndShapeItemsImage: UIImageView!
     @IBOutlet weak var colorAndShapeItemsNameLabel: UILabel!
     
     // this method for display the border color when selectedd
     override var isSelected: Bool {
-        
         didSet {
             if self.isSelected {
                 UIView.animate(withDuration: 0.3) { // for animation effect
@@ -32,5 +30,4 @@ class ColorAndShapeCollectionViewCell: UICollectionViewCell {
             }
         }
     }
-    
 }

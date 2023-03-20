@@ -9,6 +9,13 @@
 import Foundation
 import UIKit
 
+// data of animals
+struct AnimalData {
+    var name: String
+    var image: UIImage
+    var sound: String
+}
+
 // Storing all the data of animals for user interface on AnimalCollectionVC
 struct AnimalModel {
 

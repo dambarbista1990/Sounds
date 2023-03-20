@@ -9,13 +9,10 @@
 import UIKit
 
 class AlphabetCollectionViewCell: UICollectionViewCell {
-    
     @IBOutlet weak var alphabetLabel: UILabel!
-    
     
     // if cell selected higlight the color
     override var isSelected: Bool {
-        
         didSet {
             if self.isSelected {
                 UIView.animate(withDuration: 0.3) { // for animation effect
@@ -29,5 +26,4 @@ class AlphabetCollectionViewCell: UICollectionViewCell {
             }
         }
     }
-    
 }

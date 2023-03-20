@@ -8,9 +8,13 @@
 
 import Foundation
 
+// This method for storing HomePage colletionView storyboard id
+struct StoryboardID {
+    static let storyboardID = [ "nature", "education", "technology", "fruits", "vegetables", "cloths", "kitchen", "colorShape"]
+}
+
 // Here i am storing the cell identifiers of collectionView cell which were implemented in main.storyboard.
 struct CellIdentifiers {
-    
     static let animalCellIdentifier         =   "animalViewCell"
     static let vechileCellIdentifier        =   "vehicleViewCell"
     static let natureCellIdentifier         =   "natureCell"
@@ -22,5 +26,4 @@ struct CellIdentifiers {
     static let kitchenCellIdentifier        =   "kitchenCell"
     static let colorShapeCellIdentifier     =   "colorShapeCell"
     static let alphabetCellIndentifier      =   "alphabetCell"
-    
 }

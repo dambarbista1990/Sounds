@@ -9,6 +9,14 @@
 import Foundation
 import UIKit
 
+// Vechiles Data
+struct VehiclesData {
+    var name: String
+    var image: UIImage
+    var sound: String
+}
+
+
 // Storing all the data of vechiles for user interface on VechilesCollectionVC
 struct VehiclesModel {
     

@@ -9,14 +9,11 @@
 import UIKit
 
 class KitchenCollectionViewCell: UICollectionViewCell {
-   
     @IBOutlet weak var kitchenItemsImage: UIImageView!
     @IBOutlet weak var kitchenItemsNameLabel: UILabel!
     
-    
     // this method for display the border color when selectedd
     override var isSelected: Bool {
-        
         didSet {
             if self.isSelected {
                 UIView.animate(withDuration: 0.3) { // for animation effect
@@ -33,5 +30,4 @@ class KitchenCollectionViewCell: UICollectionViewCell {
             }
         }
     }
-    
 }

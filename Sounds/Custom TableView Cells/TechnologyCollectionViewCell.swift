@@ -9,15 +9,11 @@
 import UIKit
 
 class TechnologyCollectionViewCell: UICollectionViewCell {
-    
-    
     @IBOutlet weak var technologyItemsImage: UIImageView!
     @IBOutlet weak var technologyItemsNameLabel: UILabel!
     
-    
     // this method for display the border color when selectedd
     override var isSelected: Bool {
-        
         didSet {
             if self.isSelected {
                 UIView.animate(withDuration: 0.3) { // for animation effect

@@ -9,15 +9,11 @@
 import UIKit
 
 class NatureCollectionViewCell: UICollectionViewCell {
-    
     @IBOutlet weak var natureItemsImage: UIImageView!
-    
     @IBOutlet weak var natureItemsNameLable: UILabel!
-    
     
     // this method for display the border color when selectedd
     override var isSelected: Bool {
-        
         didSet {
             if self.isSelected {
                 UIView.animate(withDuration: 0.3) { // for animation effect
@@ -34,6 +30,4 @@ class NatureCollectionViewCell: UICollectionViewCell {
             }
         }
     }
-
-    
 }

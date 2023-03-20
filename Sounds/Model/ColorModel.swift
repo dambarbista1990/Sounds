@@ -9,11 +9,14 @@
 import Foundation
 import UIKit
 
-// This method is for change main/home page collectionView cell backroung color
+// Color data is for change the background color of home page cell
+struct ColorData {
+    var backgroundColor: UIColor
+}
 
+// This method is for change main/home page collectionView cell backroung color
 struct ColorModel {
     static let color =  [
-        
         ColorData(backgroundColor: .systemGreen),
         ColorData(backgroundColor: .systemBlue),
         ColorData(backgroundColor: .systemOrange),
@@ -22,12 +25,9 @@ struct ColorModel {
         ColorData(backgroundColor: .systemGray),
         ColorData(backgroundColor: .brown),
         ColorData(backgroundColor: .systemPurple),
-        
-        
     ]
     
     static func getBackgroundColors(for cellIndex: Int) -> UIColor {
-        
         return color[cellIndex].backgroundColor
     }
 }

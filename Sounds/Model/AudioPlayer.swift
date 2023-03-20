@@ -14,13 +14,9 @@ var player = AVAudioPlayer()   // Making it global varible so i can get it from 
 
 // This method will play sound of items
 struct AudioPlayer {
-    
     static func playSound(with soundName: String)  {
-        
         let url = Bundle.main.url(forResource: soundName, withExtension: "mp3")
-        
         do {
-            
             player = try AVAudioPlayer(contentsOf: url!)
             try AVAudioSession.sharedInstance().setCategory(.playback,mode: .default) // play sound when device in silent mode
             
@@ -31,7 +27,6 @@ struct AudioPlayer {
         }
     }
     
-    
     // this method will stop the sound
     static func stopSound() {
         
@@ -39,5 +34,4 @@ struct AudioPlayer {
             player.stop()
         }
     }
-    
 }

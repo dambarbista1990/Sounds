@@ -9,13 +9,6 @@
 import UIKit
 
 class HomePageCollectionViewCell: UICollectionViewCell {
-    
-    
     @IBOutlet weak var contentImageView: UIImageView!
-    
     @IBOutlet weak var contentNameLabel: UILabel!
-    
-    
-   
-
 }
